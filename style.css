@@ -68,13 +68,14 @@ footer {
     text-align: center;
 }
 
-.top a {
+h3 {
     margin-top: 30px;
     background-color:  rgba(0, 0, 0, 0.8);
     color: #ffffff;
-    padding: 5px 12px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
+    border-radius: 5px;
 
 }
 
@@ -145,19 +146,22 @@ border-radius: 5px;
         margin-top: 10px;
     }
 
-    form p {
-        width: 90%;
+    .contact {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .contact p{
+      
         background-color: rgba(0, 0, 0, 0.8);
         color: #ffffff;
         padding: 10px;
         border-radius: 7px;
-        margin-left: 15%;
-    }
-
-    form input {
-        width: 70%;
        
     }
+
+   
 
     section {
         display: flex;
@@ -171,9 +175,14 @@ border-radius: 5px;
 
     .top {
         
+
         margin-left: 45%;
     }
 
-   
+   .skills  {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+   }
 }
 
